@@ -1,0 +1,17 @@
+.large-text {
+    font-size: 100px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 110%;
+    font-family: "Editorial New";
+  }
+  
+  .medium-text {
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: normal;
+    /* line-height: 110%; */
+    font-family: "Editorial New";
+    /* z-index: 20; */
+    color: white;
+  }

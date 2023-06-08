@@ -1,0 +1,56 @@
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5c5043;
+    position: relative;
+}
+
+.loader-flower-1 {
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    /* width: 20vw;
+    height: 10vh; */
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.loader-flower-2 {
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    /* height: 10vh; */
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.company-name {
+    font-size: 150px;
+    font-family: 'Editorial New';
+    font-weight: 100;
+    /* line-height: 165px; */
+    height: 180px;
+    overflow: hidden;
+}
+
+.custom-linear-progress-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 50px;
+}
+
+.loading-statement {
+    margin-bottom: 40px;
+}
+
+.custom-linear-progress {
+    width: 30vw;
+}
